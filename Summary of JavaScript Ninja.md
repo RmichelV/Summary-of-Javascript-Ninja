@@ -43,4 +43,19 @@ Also exist other features of JavaScript can help you to write more elegant and e
 Having a deep understanding of the fundaments and learning how to use the advanced language features to their best advantages can elevate your code to higher levels 
 
 **1.1.1 How will JavaScript evolve**
- 
+
+The ECSMASccript committee in charge of standardizing the language has just finished the ES7/2016 version, a small upgrade to JavaScript compared with ES6, because the committee's goal going forward is to focus on smaller 
+
+Yearly exist updates for the languages but it doesn’t mean that developers will have access to those new features that have been released so we keep waiting for new JavaScript engines that have the new features. Unfortunately there’s always a chances that you’ll run into features that you want to use but that are yet to be supported. 
+
+**1.1.2 Transpiliers give us access to tomorrow’s JavaScript today** 
+
+With the rapid release cycles of browsers we don’t have to wait long for a JavaScript features to be supported but the user of our web application may still using older browsers? One answer could be use transpilers *(transformation + compiling)* are tools that take the cutting edge of JavaScript code and transform it into equivalent (or similar) code that works properly in most current browsers and one of the most popular in transpilier is Traceur. 
+
+**1.2 Understanding the browser**
+
+These days, JavaScript applications can be executed in many environments, but the environments from which all other environment have taken ideas, and the environment on which we’ll focus us the browser. The browser provides various concepts and APIs to thoroughly explore see figure 1.1 
+
+![figure 1.1](images/figure1.jpg)
+##### **Figure1.1 Client-side web application rely on the infraestructure provided by the browser. We'll particularly focus on the DOM, events, tumers, and browser APIs.**
+
