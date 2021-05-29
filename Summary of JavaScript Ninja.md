@@ -57,7 +57,8 @@ With the rapid release cycles of browsers we don’t have to wait long for a Jav
 These days, JavaScript applications can be executed in many environments, but the environments from which all other environment have taken ideas, and the environment on which we’ll focus us the browser. The browser provides various concepts and APIs to thoroughly explore see figure 1.1 
 
 ![figure 1.1](images/figure1.jpg)
-##### **Figure1.1 Client-side web application rely on the infraestructure provided by the browser. We'll particularly focus on the DOM, events, tumers, and browser APIs.**
+
+##### **Figure 1.1 Client-side web application rely on the infraestructure provided by the browser. We'll particularly focus on the DOM, events, tumers, and browser APIs**.
 
 We’ll concentrate on the following:
 
@@ -79,8 +80,35 @@ Mastery of the JavaScript language and a strong understanding of coding issues a
 * Testing
 * Performance analysis
 
-Those are important to adhere to theses practices when coding
+Those are important to adhere to theses practices when coding.
 
 **1.3.1 Debugging**
 
+Debugging JavaScript used to mean using alert to verify the value of variables, Fortunately the ability to debug JavaScript code has improve a lot. Because similar tools like Firebug have been developed for the major browsers:
+
+* *Firebug* – The popular developer extension for Firefox that got the ball rolling.
+* *Chrome DevTools* – Developed by the Chrome team and used in Chrome and Opera.
+* *Firefox Developer* Tools – A tool included in Firefox, built by the Firefox team
+* *F12 developer tools* – Included in Internet Explorer and Microsoft Edge
+* *Webkit Inspector* – Used by Safari
+
+Every major browsers offers us developer tools to debug  our web applications. All of theses tools are based on similar ideas, they offer similar functionality, exploring the DOM, debugging JavaScript, editing CSS styles, tracking network events and any of them will do a fine job 
+
+**1.3.2 Testing**
+
+ Throughout this book, we’ll apply testing techniques to ensure that the examples operates as intended and serve as examples of how to test code in general. The primary tool we’ll use for testing is an *assert* function, who purpose is to assert that a premise is true or false. And we can prove whether the code is behaving as expected. The general form of this function is as follows:
+
+```
+assert(condition, message); 
+```
+
+The first parameter is a condition that should be true, and the second is a message that will be displayed if it’s not. Consider this for example:
+```
+assert(a===1, “Disaster! A is not 1!”) 
+```
+If the value of variable *a* isn't equal to 1, the assertion fails, and the somewhat overly dramatic message is dsplayed. 
+
+>**Note** The assert function isn't a standard feature of the language, so we'll implement if ourselves in appendix B.
+
+**Performance analysis**
 
