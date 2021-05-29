@@ -59,3 +59,28 @@ These days, JavaScript applications can be executed in many environments, but th
 ![figure 1.1](images/figure1.jpg)
 ##### **Figure1.1 Client-side web application rely on the infraestructure provided by the browser. We'll particularly focus on the DOM, events, tumers, and browser APIs.**
 
+We’ll concentrate on the following:
+
+*The Document Object Model (DOM)* – The DOM is a structured representation of the UI of a client-side web application that is built from the HTML code of a web application to develop great applications you need to not only have a deep understanding of the core JavaScript mechanics. 
+
+*Events* –  Many JavaScript application are event-driven applications, it means the most code executed is in response of a particular event. Examples of events include network events, timers and user-generate events such as clicks, mouse moves, keyboard presses and so on. 
+
+*Browser API* – The browsers offers an API that allow us to access information about devices, store data locally or communicate with remote servers  
+
+The browsers has improved but they still have some bugs, missing APIs and some browsers-specific quirks that we nee to deal with. We need to develop strategies to deal with those issues and becoming familiar with their differences and quirks. 
+
+When we write browser application or JavaScript libraries to be used in them we need choose admit them because the reality is that no all the browsers admit all the libraries or applications. 
+
+**1.3 Using current best practices**
+
+Mastery of the JavaScript language and a strong understanding of coding issues are important parts of becoming an expert web application developer. You need to exhibit the traits that scores of previous developers have proven. Thess traits are known as *best practices* they include such elements as
+
+* Debbugging skills
+* Testing
+* Performance analysis
+
+Those are important to adhere to theses practices when coding
+
+**1.3.1 Debugging**
+
+
