@@ -110,5 +110,23 @@ If the value of variable *a* isn't equal to 1, the assertion fails, and the some
 
 >**Note** The assert function isn't a standard feature of the language, so we'll implement if ourselves in appendix B.
 
-**Performance analysis**
+**1.3.3 Performance analysis**
 
+JavaScript engines have made astounding strides in the performance of JavaScript, but that’s no excuse writing sloppy and inefficient code. We’ll use code such as the following later int his book to collect performance information: 
+
+```Javascript 
+console.time(“My operation”); Starts the timer
+
+for(var n = 0; n < maxCount: n++){
+/*perform the operation to be measured*/
+}
+
+console.timeEnd(“My operation”);
+``` 
+we bracket the execution of the code to be measured with two calls to the time and time time end methods of the built-in console object.  
+
+Before the operation begins executing, the call to *console.time* starts a timer wiith a name (in this case, My operation), Then we run the code in the *for* loop a certain number of times (in this case, *maxCount* times). Because a single operation of the code happens much to quickly to measure reliably, we need to perform the code many times to get a measurable value. Frequently, this count can be in the tens of thousands or even millions, depending on the nature of the code being measured. A little trial an error lets us choose a reasonable value. When the operation  ends we call the *console.timeEnd* with the same name. The causes the browser to output the time that elapsed since the timer was started. 
+
+**1.4 Boosting skill transferability**
+
+Each browser had its own way to interpreted the scripts and UI styles making that many developers grind their teeth for the frustration but it ends when arrive HTML CSS DOM and JavaScript all being standardized and the developers focus turning toward effective cross-browser JavaScript application. 
