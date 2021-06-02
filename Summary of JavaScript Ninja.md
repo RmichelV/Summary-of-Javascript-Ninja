@@ -1,12 +1,14 @@
+
 # Javascript is everywhere
 
+<div style="text-align: justify">
 ***This chapter cover***
 
 * The core language features of Javascript
 * The core items of Javascript engine
 * Three best practices in JavaScript development 
 
-Let´s start this summary talking about Bob who is a software development, who graduated in 2000's after learn how create desktop application. As the web pages had just hit stride he learned PHP so he could create dynamic web pages sprinkled with JavaScript to achieve complex functionalities like form validations. When the smartphones arrived, they opened a new market and bob didnâ€™t want keep back and learned Objective-C and Java to develop mobile apps that run on IOS and Android. Now lets talk about Ann who graduated with a degree in software development. She made web sites based on the modern Model-View-Controller, also made mobile applications that running on IOS and Android, she got to make desktop applications that runs on Windows, Linux and OS X, she has started to building a server less version of that applications entirely based in the cloud. Everything written in JavaScript. That was extraordinary because what took Bob 10 years and 5 languages to do, Ann has achieved in 2 years and in just one language. What started as a humble 10-day project back in 1995 is now one of the most widely used programming languages in the world, now JavaScript is getting long overdue upgrades to be more suitable for modern application development.
+Let´s start this summary talking about Bob who is a software development, who graduated in 2000's after learn how create desktop application. As the web pages had just hit stride he learned PHP so he could create dynamic web pages sprinkled with JavaScript to achieve complex functionalities like form validations. When the smartphones arrived, they opened a new market and bob didnâ€™t want keep back and learned Objective-C and Java to develop mobile apps that run on IOS and Android. Now lets talk about Ann who graduated with a degree in software development. She made websites based on the modern Model-View-Controller, also made mobile applications that running on IOS and Android, she got to make desktop applications that runs on Windows, Linux and OS X, she has started to building a server less version of that applications entirely based in the cloud. Everything written in JavaScript. That was extraordinary because what took Bob 10 years and 5 languages to do, Ann has achieved in 2 years and in just one language. What started as a humble 10-day project back in 1995 is now one of the most widely used programming languages in the world, now JavaScript is getting long overdue upgrades to be more suitable for modern application development.
 
 **1.1 Understanding the JavaScript language**
 
@@ -114,7 +116,7 @@ If the value of variable *a* isn't equal to 1, the assertion fails, and the some
 
 JavaScript engines have made astounding strides in the performance of JavaScript, but that’s no excuse writing sloppy and inefficient code. We’ll use code such as the following later int his book to collect performance information: 
 
-```Javascript 
+```JavaScript 
 console.time(“My operation”); Starts the timer
 
 for(var n = 0; n < maxCount: n++){
@@ -129,4 +131,15 @@ Before the operation begins executing, the call to *console.time* starts a timer
 
 **1.4 Boosting skill transferability**
 
-Each browser had its own way to interpreted the scripts and UI styles making that many developers grind their teeth for the frustration but it ends when arrive HTML CSS DOM and JavaScript all being standardized and the developers focus turning toward effective cross-browser JavaScript application. 
+Each browser had its own way to interpreted the scripts and UI styles making that many developers grind their teeth for the frustration but it ends when arrive HTML CSS DOM and JavaScript all being standardized and the developers focus turning toward effective cross-browser JavaScript application. Treat the websites like applications generated many ideas, tools and techniques crossing over from desktop applications to websites applications web development have also permeated other application domains. Have the knowledge about the fundamentals of JavaScript principles and the core of APIs, it makes you a more versatile developer. By using the browser and Node.JS you can developer any type of application imaginable: 
+
+* *Desktop applications* , by using of NW.JS or Electron we can build a desktop Uis with standard HTML, CSS and JavaScript with additional support that makes it possible interact with the file system.
+
+* *Mobile apps with frameworks* the frameworks for mobile apps use a wrapped browser but additional platform specific APIs that let us interact with the mobile platform.
+
+* *Server-side applications an applications for embedded devices with Node.Js* an environment derived from browser that uses many of the same underlying principles as the browser.
+
+Desktop applications, mobile applications, server-side applications, all these types of applications share  some of the same underlying principles of standard client-side web applications. Understanding how the core mechanics of JavaScript work or the core APIs provided by browsers you’ll become in a versatile developer and gain knowledge and understanding to tackle variety of problems. You’ll be able to build your own server less applications   based in the cloud by using JavaScript APIs for services such as AWS Lambada to deploy, maintain, and control your application’s cloud components. 
+
+</div>
+
