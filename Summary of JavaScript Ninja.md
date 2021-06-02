@@ -2,6 +2,7 @@
 # Javascript is everywhere
 
 <div style="text-align: justify">
+
 ***This chapter cover***
 
 * The core language features of Javascript
